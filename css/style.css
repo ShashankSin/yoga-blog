@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+.section--newsletter {
+  background-color: #448c74;
+  border-radius: 30px;
+  padding: 20px 0;
+}
+.section--newsletter--content {
+  padding-left: 30px;
+  width: 35%;
+}
+.section--newsletter--content--icon span {
+  background-color: #e5c466;
+  padding: 25px;
+  border-radius: 50%;
+  font-size: 50px;
+  rotate: -45deg;
+}
+.section--newsletter--content--heading h3 {
+  color: #fff;
+  font-size: 32px;
+  margin: 0;
+}
+.section--newsletter--inputfield {
+  padding: 140px 30px 140px 0;
+  width: 65%;
+  background-image: url(/images/logo.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.section--newsletter--input {
+  width: 550px;
+  position: relative;
+}
+.section--newsletter--input input {
+  padding: 20px 40px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  width: 100%;
+}
+.section--newsletter--input button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 20px 30px 20px 40px;
+  font-size: 14px;
+  background-color: #e5c466;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+.section--newsletter--input button .section--newsletter--inputfield--arrow {
+  position: relative;
+  display: block;
+  height: 20px;
+  width: 15px;
+  margin-left: 7px;
+  overflow: hidden;
+}
+.section--newsletter--input button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.section--newsletter--input
+  button
+  .section--newsletter--inputfield--arrow
+  span {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  font-size: 20px;
+  font-weight: 400;
+  transition: transform 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+.section--newsletter--input
+  button
+  .section--newsletter--inputfield--arrow
+  .arrow__hover__hidden {
+  visibility: hidden;
+  transform: scale(0.26) translate(-30px, 30px);
+}
+.section--newsletter--input button:hover .arrow__hover__hidden {
+  visibility: visible;
+  transform: scale(1) translate(0px, 0px);
+}
+.section--newsletter--input button:hover .arrow__hover {
+  visibility: hidden;
+  transform: scale(0.26) translate(40px, -40px);
+}
