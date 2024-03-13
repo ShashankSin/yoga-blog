@@ -108,10 +108,11 @@ section {
   outline: none;
   box-shadow: none;
   border: none;
+  width: 100%;
 }
 .blog-content-input span {
   position: absolute;
-  right: 0;
+  right: 8px;
   top: 5px;
   background-color: #e5c466;
   color: #fff;
